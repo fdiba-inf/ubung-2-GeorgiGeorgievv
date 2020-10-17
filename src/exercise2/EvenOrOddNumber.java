@@ -13,7 +13,5 @@ public class EvenOrOddNumber {
         } else {
             System.out.println("odd");
         }
-
-
     }
 }

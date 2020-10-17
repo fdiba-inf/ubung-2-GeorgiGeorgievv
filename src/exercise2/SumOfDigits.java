@@ -16,6 +16,11 @@ public class SumOfDigits {
             System.out.println(two + tree + four);
         } else {
             System.out.println("Choose a number between 0 and 999");
+
+
+
+
+            
         }
     }
 }

@@ -33,6 +33,8 @@ public class DayOfWeek {
             default:
                 System.out.println("Invalid day");
             break;
+
+         
             
         }
     }
