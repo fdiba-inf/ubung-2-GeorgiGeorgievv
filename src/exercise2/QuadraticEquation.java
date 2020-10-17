@@ -36,6 +36,5 @@ public class QuadraticEquation {
             System.out.println("Many values");
         }
 
-
     }
 }

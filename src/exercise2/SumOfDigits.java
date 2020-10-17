@@ -17,6 +17,5 @@ public class SumOfDigits {
         } else {
             System.out.println("Choose a number between 0 and 999");
         }
-
     }
 }
