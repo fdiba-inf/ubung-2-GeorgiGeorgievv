@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class QuadraticEquation {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
 
-        double a = Double.parseDouble(scanner.nextLine());
-        double b = Double.parseDouble(scanner.nextLine());
-        double c = Double.parseDouble(scanner.nextLine());
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+        double c = input.nextDouble();
 
         double determinant = (b * b) - (4 * a * c);
         double x = 0.0;

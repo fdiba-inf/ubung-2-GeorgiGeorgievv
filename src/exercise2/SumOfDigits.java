@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class SumOfDigits {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = Integer.parseInt(scanner.nextLine());
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
 
         int two = number % 10;
         int tree = (number / 10) % 10;

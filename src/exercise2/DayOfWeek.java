@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class DayOfWeek {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int number = Integer.parseInt(scanner.nextLine());
+        int number = input.nextInt();
 
         switch (number) {
             case 1:
